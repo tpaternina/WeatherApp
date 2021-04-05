@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Weather App</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+    <body>
+        <header>
+            <nav>
+                <input type="text" name="city"/>
+            </nav>
+            <hr>
+        </header>
+        <div id="location">
+            <p id="city">Helisinki</p>
+            <p id="date">Wednesday-29 May</p>
+        </div>
+        <div id="weather">
+            <div id="current-temp">14°</div>
+            <div id="conditions-1">
+                <p id="description">It's sun time</p>
+                <p id="max-min">15°-17°</p>
+            </div>
+            <div id="conditions-2">
+                <p id="wind">Wind: 29 km/h</p>
+                <p id="precipitation">Precipitation: 0%</p>
+            </div>
+        </div>
+        <div id="hourly">
+            <p>Hourly</p>
+            <hr>
+            <ul>
+                <li>
+                    <div class="hourly-item">
+                        <p>5 PM</p>
+                        <p>Clear</p>
+                        <p>0%</p> <!-- TODO: ADD PRECIPITATION ICON/IMG -->
+                        <p>14°</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="hourly-item">
+                        <p>8 PM</p>
+                        <p>Clear</p>
+                        <p>0%</p> <!-- TODO: ADD PRECIPITATION ICON/IMG -->
+                        <p>14°</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="hourly-item">
+                        <p>11 PM</p>
+                        <p>Clear</p>
+                        <p>0%</p> <!-- TODO: ADD PRECIPITATION ICON/IMG -->
+                        <p>14°</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="hourly-item">
+                        <p>2 AM</p>
+                        <p>Clear</p>
+                        <p>0%</p> <!-- TODO: ADD PRECIPITATION ICON/IMG -->
+                        <p>14°</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </body>
+</html>
