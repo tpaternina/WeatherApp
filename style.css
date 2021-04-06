@@ -1,0 +1,17 @@
+html {
+    font-family: 'Lato', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+strong {
+    font-weight: 800;
+}
+
+#current-temp {
+    font-size: 10rem;
+    font-weight: 900;
+}
+
+#conditions-1 {
+    font-size: 1.25rem;
+}
