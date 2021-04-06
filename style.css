@@ -1,10 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 html {
     font-family: 'Lato', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 14px;
+    background-color: beige;
+}
+
+div {
+    margin: 0.75rem 0;
+    padding: 0.5rem;
+}
+
+nav {
+    margin-bottom: 0.5rem;
+    height: 1.5rem;
+}
+
+nav input {
+    border: none;
+    font-size: 0.85rem;
+    height: 100%;
+    width: 100%;
+}
+
+nav input:focus-visible {
+    outline: none;
 }
 
 strong {
     font-weight: 800;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 460px;
+}
+
+.sunny {
+    color: #111;
+    background-color: #e69b11;
+}
+
+.rainy {
+    color: cornsilk;
+    background-color: #0059B3;
+}
+
+hr.sunny {
+    border-color: #111;
+}
+
+hr.rainy {
+    border-color: cornsilk;
+}
+
+#city {
+    margin-bottom: 1rem;
 }
 
 #current-temp {
@@ -12,6 +70,41 @@ strong {
     font-weight: 900;
 }
 
+.conditions {
+    display: flex;
+    justify-content: space-between;
+}
+
 #conditions-1 {
     font-size: 1.25rem;
+}
+
+#hourly {
+    font-size: 0.85rem;
+}
+
+#hourly li {
+    list-style-type: none;
+}
+
+.hourly-item {
+    margin: 0.5rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hourly-property {
+    width: 25%;
+}
+
+.hourly-hour {
+    text-align: left;
+}
+
+.hourly-sky {
+    text-align: center;
+}
+
+.hourly-weather {
+    text-align: right;
 }
