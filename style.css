@@ -20,10 +20,11 @@ nav {
 }
 
 nav input {
-    border: none;
-    font-size: 0.85rem;
-    height: 100%;
-    width: 100%;
+  border: none;
+  font-size: 0.85rem;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,0);
 }
 
 nav input:focus-visible {
@@ -35,37 +36,37 @@ strong {
 }
 
 .row {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .container {
-    max-width: 460px;
+  max-width: 460px;
 }
 
-.sunny {
+.warm-color {
     color: #111;
     background-color: #e69b11;
 }
 
-.rainy {
+.cold-color {
     color: cornsilk;
     background-color: #0059B3;
 }
 
-hr.sunny {
+hr.dark {
     border-color: #111;
 }
 
-hr.rainy {
+hr.light {
     border-color: cornsilk;
 }
 
-#city {
+.city {
     margin-bottom: 1rem;
 }
 
-#current-temp {
+.current-temp {
     font-size: 10rem;
     font-weight: 900;
 }
@@ -75,15 +76,15 @@ hr.rainy {
     justify-content: space-between;
 }
 
-#conditions-1 {
+.text-medium {
     font-size: 1.25rem;
 }
 
-#hourly {
+.text-small {
     font-size: 0.85rem;
 }
 
-#hourly li {
+.hourly li {
     list-style-type: none;
 }
 

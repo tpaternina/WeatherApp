@@ -1,64 +1,55 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>My Weather App</title>
-        <link rel="stylesheet" type="text/css" href="style.css" />
-    </head>
-    <body>
-        <div class="row">
-            <div class="container rainy">
-                <header>
-                    <nav>
-                        <input type="text" name="city" class="rainy" placeholder="Search..." />
-                    </nav>
-                    <hr class="rainy">
-                </header>
-                <div id="location">
-                    <p id="city"><strong>Helsinki</strong></p>
-                    <p id="date">Wednesday—29 May</p>
-                </div>
-                <div id="weather">
-                    <div id="current-temp">14°</div>
-                    <div id="conditions-1" class="conditions">
-                        <p id="description"><strong>It's sun time</strong></p>
-                        <p id="max-min"><strong>15°—17°</strong></p>
-                    </div>
-                    <div id="conditions-2" class="conditions">
-                        <p><small id="wind">Wind: 29 km/h</small></p>
-                        <p><small id="precipitation">Precipitation: 0%</small></p>
-                    </div>
-                </div>
-                <div id="hourly">
-                    <p class="hourly-item">Hourly</p>
-                    <hr class="rainy">
-                    <ul>
-                        <li class="hourly-item">
-                            <p class="hourly-property hourly-hour">5 PM</p>
-                            <p class="hourly-property hourly-sky">Clear</p>
-                            <p class="hourly-property hourly-weather">0%</p> <!-- TODO: ADD PRECIPITATION ICON/IMG -->
-                            <p class="hourly-property hourly-weather">14°</p>
-                        </li>
-                        <li class="hourly-item">
-                            <p class="hourly-property hourly-hour">8 PM</p>
-                            <p class="hourly-property hourly-sky">Clear</p>
-                            <p class="hourly-property hourly-weather">0%</p> <!-- TODO: ADD PRECIPITATION ICON/IMG -->
-                            <p class="hourly-property hourly-weather">14°</p>
-                        </li>
-                        <li class="hourly-item">
-                            <p class="hourly-property hourly-hour">11 PM</p>
-                            <p class="hourly-property hourly-sky">Clear</p>
-                            <p class="hourly-property hourly-weather">0%</p> <!-- TODO: ADD PRECIPITATION ICON/IMG -->
-                            <p class="hourly-property hourly-weather">14°</p>
-                        </li>
-                        <li class="hourly-item">
-                            <p class="hourly-property hourly-hour">2 AM</p>
-                            <p class="hourly-property hourly-sky">Clear</p>
-                            <p class="hourly-property hourly-weather">0%</p> <!-- TODO: ADD PRECIPITATION ICON/IMG -->
-                            <p class="hourly-property hourly-weather">14°</p>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+<div class="row">
+    <div class="container warm-color">
+      <header>
+        <nav>
+          <input type="text" name="city" placeholder="Search..." />
+        </nav>
+        <hr class="dark">
+      </header>
+      <div id="location">
+        <p class="city"><strong>Helsinki</strong></p>
+        <p>Wednesday—29 May</p>
+      </div>
+      <div>
+        <div class="current-temp">14°</div>
+        <div class="conditions text-medium">
+          <p><strong>It's sun time</strong></p>
+          <p><strong>15°—17°</strong></p>
         </div>
-    </body>
-</html>
+        <div class="conditions text-small">
+          <p>Wind: 29 km/h</p>
+          <p>Precipitation: 0%</p>
+        </div>
+      </div>
+      <div class="text-small">
+        <p class="hourly-item">Hourly</p>
+        <hr class="dark">
+        <ul>
+          <li class="hourly-item">
+            <p class="hourly-property hourly-hour">5 PM</p>
+            <p class="hourly-property hourly-sky">Clear</p>
+            <p class="hourly-property hourly-weather">0%</p> <!-- TODO: ADD PRECIPITATION ICON/IMG -->
+            <p class="hourly-property hourly-weather">14°</p>
+          </li>
+          <li class="hourly-item">
+            <p class="hourly-property hourly-hour">8 PM</p>
+            <p class="hourly-property hourly-sky">Clear</p>
+            <p class="hourly-property hourly-weather">0%</p> <!-- TODO: ADD PRECIPITATION ICON/IMG -->
+            <p class="hourly-property hourly-weather">14°</p>
+          </li>
+          <li class="hourly-item">
+            <p class="hourly-property hourly-hour">11 PM</p>
+            <p class="hourly-property hourly-sky">Clear</p>
+            <p class="hourly-property hourly-weather">0%</p> <!-- TODO: ADD PRECIPITATION ICON/IMG -->
+            <p class="hourly-property hourly-weather">14°</p>
+          </li>
+          <li class="hourly-item">
+            <p class="hourly-property hourly-hour">2 AM</p>
+            <p class="hourly-property hourly-sky">Clear</p>
+            <p class="hourly-property hourly-weather">0%</p> <!-- TODO: ADD PRECIPITATION ICON/IMG -->
+            <p class="hourly-property hourly-weather">14°</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
